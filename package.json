@@ -1,10 +1,10 @@
 {
   "name": "deku-component-find-class",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility to locate components by class name in a Deku component tree",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mochify"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
   "homepage": "https://github.com/kvnneff/deku-component-find-class#readme",
   "devDependencies": {
     "component-mock": "0.0.2",
-    "mocha": "^2.3.4",
+    "mochify": "^2.14.2",
     "virtual-element": "^1.2.0"
   },
   "dependencies": {
