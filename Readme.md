@@ -7,7 +7,7 @@ Adapted from  [react-shallow-testutils](https://github.com/sheepsteak/react-shal
 ## Example
 
 ```js
-import {findAll, findWithClass} from 'deku-component-find-class'
+import {findAllWithClass, findWithClass} from 'deku-component-find-class'
 import element from 'virtual-element'
 import Mock from 'component-mock'
 
