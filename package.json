@@ -1,0 +1,31 @@
+{
+  "name": "deku-component-find-class",
+  "version": "1.0.0",
+  "description": "Utility to locate components by class name in a Deku component tree",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvnneff/deku-component-find-class.git"
+  },
+  "keywords": [
+    "deku"
+  ],
+  "author": "Kevin Neff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kvnneff/deku-component-find-class/issues"
+  },
+  "homepage": "https://github.com/kvnneff/deku-component-find-class#readme",
+  "devDependencies": {
+    "component-mock": "0.0.2",
+    "mocha": "^2.3.4",
+    "virtual-element": "^1.2.0"
+  },
+  "dependencies": {
+    "deku-component-find-all": "^1.0.1",
+    "deku-component-is-node": "^1.0.0"
+  }
+}
